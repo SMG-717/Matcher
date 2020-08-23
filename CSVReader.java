@@ -13,13 +13,16 @@ public class CSVReader {
 
     public static void readLinesFrom(String location) {
         Path path = Paths.get(location);
-        String csvSource = "";
+        StringBuilder csvSource = new StringBuilder();
         try {
-            csvSource = Files.readString(path);
+            List<String> lines = Files.readAllLines(path);
+            for (String line : lines) {
+                csvSource.append(line);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        String[] listString = csvSource.replaceAll("\r", "").split("\n");
+        String[] listString = csvSource.toString().replaceAll("\r", "").split("\n");
         setIndices(listString[0]);
         constructPeople(listString);
     }
