@@ -1,4 +1,4 @@
-public class DiscretePreference {
+public class DiscretePreference extends Preference {
     String[] preferences;
 
     public DiscretePreference(String values) {
@@ -9,7 +9,7 @@ public class DiscretePreference {
         preferences = values.split("/");
     }
 
-    public boolean contains(String property) {
+    public boolean satisfies(String property) {
         for (String preference : preferences) {
             if (property.equals(preference)) {
                 return true;

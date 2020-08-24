@@ -12,9 +12,13 @@ public class Main {
 
     public static void matchPeople() {
         for (Person p : people) {
-            if (!p.isPaired()) {
 
-            }
         }
     }
+
+    public static void getPeople(Preference... p) {
+
+    }
+
+
 }

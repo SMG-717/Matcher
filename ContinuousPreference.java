@@ -1,4 +1,4 @@
-public class ContinuousPreference {
+public class ContinuousPreference extends Preference {
     int minPreference;
     int maxPreference;
 
@@ -36,7 +36,7 @@ public class ContinuousPreference {
         }
     }
 
-    public boolean isInRange(int number) {
+    public boolean satisfies(int number) {
         return number > minPreference && number < maxPreference;
     }
 }
