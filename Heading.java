@@ -46,7 +46,11 @@ enum Heading {
 
     static Heading getCounterpart(Heading h) {
         try {
-            return (Heading) Heading.class.getField(h.name() + "_PREFERENCE").get(null);
+            if (h.name().contains("PREFERENCE")) {
+                return (Heading) Heading.class.getField(h.name().replaceAll("_PREFERENCE", "")).get(null);
+            } else {
+                return (Heading) Heading.class.getField(h.name() + "_PREFERENCE").get(null);
+            }
         } catch (NoSuchFieldException | IllegalAccessException e) {
             return null;
         }

@@ -36,6 +36,7 @@ public class ContinuousPreference extends Preference {
 
     public boolean satisfies(String property) {
         if (property == null) {
+            // System.out.println("got null in Cont pref");
             return true;
         }
         int num = Integer.parseInt(property);
