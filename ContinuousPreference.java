@@ -3,10 +3,10 @@ public class ContinuousPreference extends Preference {
     int maxPreference;
 
     public ContinuousPreference(String range) {
-        minPreference = 0;
+        minPreference = Integer.MIN_VALUE;
         maxPreference = Integer.MAX_VALUE;
 
-        if (range == null || range.trim().equals("")) {
+        if (range == null || range.trim().equals("") || range.trim().equals("-")) {
             return;
         }
 
@@ -21,10 +21,8 @@ public class ContinuousPreference extends Preference {
         } else if (range.contains(">")) {
             range = range.replaceAll(">", "");
             minPreference = Integer.parseInt(range.trim());
-            maxPreference = Integer.MAX_VALUE;
         } else if (range.contains("<")) {
             range = range.replaceAll("<", "");
-            minPreference = 0;
             maxPreference = Integer.parseInt(range.trim());
         } else {
             maxPreference = Integer.parseInt(range.trim());
@@ -36,7 +34,11 @@ public class ContinuousPreference extends Preference {
         }
     }
 
-    public boolean satisfies(int number) {
-        return number > minPreference && number < maxPreference;
+    public boolean satisfies(String property) {
+        if (property == null) {
+            return true;
+        }
+        int num = Integer.parseInt(property);
+        return num >= minPreference && num <= maxPreference;
     }
 }

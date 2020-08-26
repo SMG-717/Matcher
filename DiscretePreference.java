@@ -10,8 +10,12 @@ public class DiscretePreference extends Preference {
     }
 
     public boolean satisfies(String property) {
+        if (preferences == null || preferences.length == 0) {
+            return true;
+        }
+
         for (String preference : preferences) {
-            if (property.equals(preference)) {
+            if (preference.equals(property)) {
                 return true;
             }
         }

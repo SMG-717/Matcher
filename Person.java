@@ -1,67 +1,75 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
 public class Person {
-    String name;
-    String gender;
-    int age;
-    String occupation;
-    int income;
-    int height;
-    String residence;
+    final String name;
+    final String gender;
 
-    HashMap<String, Object> qualities;
-    HashMap<String, Preference> preferences;
+    HashMap<Heading, String> properties;
+    HashMap<Heading, Preference> preferences;
 
-    Person assignedCompanion;
     List<Person> potentialCompanions;
 
     public Person(String name, String gender) {
         this.name = name;
         this.gender = gender;
-    }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getGender() {
+        preferences = new HashMap<>();
+        properties = new HashMap<>();
 
     }
 
-    public void setPreference(String preference, Preference value) {
-        preferences.put(preference, value);
+    public void setPreference(Heading preference, String value) {
+
+        Preference p;
+        if (preference.isContinuous) {
+            p = new ContinuousPreference(value);
+        } else {
+            p = new DiscretePreference(value);
+        }
+
+        preferences.put(preference, p);
     }
 
-    public void setQuality(String quality, Object value) {
-        qualities.put(quality, value);
+    public void setProperty(Heading quality, String value) {
+        properties.put(quality, value);
 
-        if (quality.equalsIgnoreCase("gender")) {
-            String gender = ((String) value).equalsIgnoreCase("male") ? "female" : "male";
-            preferences.put("gender", new DiscretePreference(gender));
+        if (quality == Heading.GENDER) {
+            String gender = value.equalsIgnoreCase("male") ? "female" : "male";
+            preferences.put(Heading.GENDER, new DiscretePreference(gender));
         }
     }
 
-    public Person getAssignedCompanion() {
-        return assignedCompanion;
+
+    public void addPotentialCompanions(Person... newPeople) {
+        if (newPeople == null) return;
+
+        if (potentialCompanions == null) {
+            potentialCompanions = new ArrayList<>();
+        }
+
+        Collections.addAll(potentialCompanions, newPeople);
     }
 
-    public void setAssignedCompanion(Person assignedCompanion) {
-        this.assignedCompanion = assignedCompanion;
+    public int getSatisfactionNum(Person p) {
+        if (p.gender.equals(gender)) {
+            return 0;
+        }
+
+        int amount = 0;
+
+        for (Heading h : preferences.keySet()) {
+            if (preferences.get(h).satisfies(p.getProperty(h))) {
+                amount++;
+            }
+        }
+        return amount;
     }
 
-    public boolean isPaired() {
-        return assignedCompanion != null;
+    public String getProperty(Heading h) {
+        return properties.get(h);
     }
 
-    public void addPotentialCompanion(Person newPerson) {
-        if (potentialCompanions == null) potentialCompanions = new ArrayList<>();
-
-        potentialCompanions.add(newPerson);
-    }
-
-    public void calculatePreferences() {
-
-    }
 }

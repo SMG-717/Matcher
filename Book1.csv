@@ -1,11 +1,13 @@
-Name,Gender,Age,Occupation,Height,Residence,Income,Age Preference,Occupation Preference,Height Preference,Residence Preference,Income Preference
-M1,M,10,Doctor,100,Cairo,1000,10,Doctor,100,Cairo,1000
-M2,M,20,Engineer,110,Qena,1100,20,Engineer,110,Qena,1100
-M3,M,30,Professor,120,Suez,1200,30,Professor,120,Suez,1200
-M4,M,40,Lawer,130,Alexandria,1300,40,Lawer,130,Alexandria,1300
-M5,M,50,Unemployed,140,Away,1400,50,Unemployed,140,Away,1400
-F1,F,60,Doctor,150,Cairo,1500,60,Doctor,150,Cairo,1500
-F2,F,70,Engineer,160,Qena,1600,70,Engineer,160,Qena,1600
-F3,F,80,Professor,170,Suez,1700,80,Professor,170,Suez,1700
-F4,F,90,Lawer,180,Alexandria,1800,90,Lawer,180,Alexandria,1800
-F5,F,100,Unemployed,190,Away,1900,100,Unemployed,190,Away,1900
+Name,Gender,Age,Occupation,Height,Residence,Age Preference,Occupation Preference,Height Preference,Residence Preference
+Morgan Freeman,M,49,Actor,195,Florida,>35,-,140-160,-
+Freddie Mercury,M,29,Engineer,163,Iran,-,Unemployed,-,-
+Michael Jackson,M,25,Singer,175,USA,-,Model/Writer,170-180,-
+Alexander Luthor,M,33,CEO,156,Gotham City,25-35,Lawyer,-,France/Akihabara
+Tony Stark,M,28,Director,171,New York,-,-,-,-
+Subaru Natsuki,M,20,Unemployed,169,Tokyo,<23,Writer,160-170,Tokyo
+Salma Chris,F,39,Unemployed,170,Cairo,>40,Engineer/Doctor,-,Cairo
+Emilia Zero,F,22,Writer,164,Tokyo,18-22,Unemployed,165-170,Tokyo
+Christina Makise,F,25,Scientist,162,Akihabara,30-35,CEO,-,Gotham City
+Emma Watson,F,30,Model,175,Hogwarts,20-40,Singer/Actor/Director,-,UK
+Helen Parr,F,35,Unemployed,159,Australia,-,CEO/Director/Actor/Singer/Engineer,-,Gotham City
+Marie Curie,F,28,Physicist,151,France,25-35,CEO,150-160,-
