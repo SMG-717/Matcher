@@ -1,3 +1,3 @@
 abstract class Preference {
-    public abstract boolean satisfies(String property);
+    public abstract int satisfies(String property);
 }

@@ -6,25 +6,35 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * This class reads data from a csv file (specifically one saved as an MS DOS csv).
+ * It then assigns the headers to Heading objects and constructs people systematically.
+ */
+
 public class CSVReader {
 
+    // Map that stores the Headings with their column number from the csv
     private static HashMap<Heading, Integer> indexMap = new HashMap<>();
+
+    // List that stores all the constructed people from the database
     public static List<Person> people = new ArrayList<>();
 
+    // Reads all the lines from a csv then calls methods for filing the indexMap and constructs people
     public static void readLinesFrom(String location) {
         Path path = Paths.get(location);
-        StringBuilder csvSource = new StringBuilder();
+        String[] lines;
+
         try {
-            List<String> lines = Files.readAllLines(path);
-            for (String line : lines) {
-                csvSource.append(line).append('\n');
-            }
+
+            // Reads all lines and then converts into String array
+            lines = Files.readAllLines(path).toArray(new String[0]);
         } catch (IOException e) {
             e.printStackTrace();
+            return;
         }
-        String[] listString = csvSource.toString().replaceAll("\r", "").split("\n");
-        setIndices(listString[0]);
-        constructPeople(listString);
+
+        setIndices(lines[0]);
+        constructPeople(lines);
     }
 
     public static void setIndices(String headings) {
@@ -42,6 +52,8 @@ public class CSVReader {
             Person person = new Person(name, gender);
 
             for (Heading key : indexMap.keySet()) {
+
+                // Name and Gender were already set in the Person constructor
                 if (key == Heading.NAME || key == Heading.GENDER) {
                     continue;
                 }

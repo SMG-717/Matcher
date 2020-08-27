@@ -1,13 +1,101 @@
 Name,Gender,Age,Occupation,Height,Residence,Age Preference,Occupation Preference,Height Preference,Residence Preference
-Morgan Freeman,M,49,Actor,195,Florida,>35,-,140-160,-
-Freddie Mercury,M,29,Engineer,163,Iran,-,Unemployed,-,-
-Michael Jackson,M,25,Singer,175,USA,-,Model/Writer,170-180,-
-Alexander Luthor,M,33,CEO,156,Gotham City,25-35,Lawyer,-,France/Akihabara
-Tony Stark,M,28,Director,171,New York,-,-,-,-
-Subaru Natsuki,M,20,Unemployed,169,Tokyo,<23,Writer,160-170,Tokyo
-Salma Chris,F,39,Unemployed,170,Cairo,>40,Engineer/Doctor,-,Cairo
-Emilia Zero,F,22,Writer,164,Tokyo,18-30,Unemployed,165-170,Tokyo
-Christina Makise,F,25,Scientist,162,Akihabara,30-35,CEO,-,Gotham City
-Emma Watson,F,30,Model,175,Hogwarts,20-40,Singer/Actor/Director,-,UK
-Helen Parr,F,35,Unemployed,159,Australia,-,CEO/Director/Actor/Singer/Engineer,-,Gotham City
-Marie Curie,F,28,Physicist,151,France,25-35,CEO,150-160,-
+Bret Snow,M,46,Musician,192,Alexandria,<47,-,>164,Asyut/Cairo
+Mehmet Watt,M,36,Writer,182,Asyut,35-50,News Anchor/Shopkeeper,150-160,South Sinai/Matruh
+Hasan Park,M,28,News Anchor,178,Minya,35-45,Teacher,170-175,Qalyubia/Beni Suef/Luxor
+Mikolaj Mack,M,38,Shopkeeper,167,Red Sea,>28,Firefighter/Pilot/Mathematician,170-180,Por Said/Cairo
+Nana Brandt,M,30,Journalist,165,Kafr El Sheikh,>35,Engineer,175-180,Beni Suef/Damietta
+Raja Shah,M,49,Company Director,173,Kafr El Sheikh,45-50,Police Officer/Writer/Secretary/Shopkeeper,170-180,Luxor/Dakahlia/Qena/Sharqia
+Bilal Dudley,M,49,Pilot,164,New Valley,35-50,Doctor/Scientist/Astronaut,150-180,Asyut
+Abubakar Black,M,36,Programmer,184,Red Sea,20-35,-,150-160,Gharbia/Luxor/North Sinai
+Rhys Arnold,M,34,Civil Servant,180,Alexandria,45-50,Doctor/Writer/Soldier/Pilot,>163,-
+Iosif Patrick,M,20,Company Director,171,Giza,25-35,-,170-175,Gharbia/South Sinai/Alexandria/Matruh
+Walter Rodrigues,M,46,Accountant,179,Faiyum,40-45,Astronaut/Accountant,170-180,Por Said/Red Sea
+Evan Almond,M,36,Company Director,167,Sohag,<25,Accountant/Teacher/Actor/Journalist,150-165,Cairo/Qalyubia/Sohag/Red Sea
+Ziggy Stacey,M,31,Mathematician,176,Damietta,>26,Secretary/Salesman/Pilot/Scientist,170-180,Sohag
+Connagh Bloggs,M,44,Soldier,168,Ismailia,>21,Musician/Shopkeeper/Chef/Journalist,155-175,Damietta/New Valley
+Bobbi Kearns,M,31,Salesman,166,Alexandria,25-35,Singer,160-175,-
+Donald Correa,M,29,Doctor,176,Beheira,30-50,-,175-180,-
+Arif Martin,M,25,Shopkeeper,183,Suez,40-50,Accountant/Chef,175-180,Beheira/Gharbia/Monufia
+Ellis Brennan,M,22,Soldier,168,South Sinai,<43,Company Director,>171,Damietta
+Subhaan Michael,M,20,Singer,192,Sohag,20-40,Actor/Engineer/Mathematician,175-180,Faiyum/Monufia
+Umayr Macdonald,M,47,Journalist,169,Asyut,25-30,Bussinessman/Teacher,150-155,-
+Mustafa Copeland,M,46,Programmer,163,Por Said,-,Salesman/Doctor,-,Sohag/Beheira/Minya
+Mina Soto,M,29,Engineer,192,North Sinai,<35,Programmer/Singer/Bussinessman,165-170,-
+Jaye Burke,M,20,Chef,180,Dakahlia,25-35,Secretary/Actor/Pilot/Bank Teller,175-180,Suez
+Alfie-Lee Snider,M,25,Musician,184,Suez,40-50,Soldier/Journalist/News Anchor/Singer,-,Monufia/Por Said/South Sinai
+Saif Best,M,46,Teacher,189,Aswan,>27,Bank Teller,165-180,Monufia/Sharqia/Damietta/Sohag
+Clayton Valentine,M,19,Bussinessman,171,Beheira,>47,Maid/Butler/Artist/Chef/Bussinessman,160-165,Cairo/Kafr El Sheikh/Asyut/Dakahlia
+Wil Lawrence,M,37,Soldier,189,Qalyubia,>33,Musician/Bussinessman/Police Officer/Singer,165-180,Giza/Beni Suef/Suez/Cairo
+Lewis Francis,M,39,Min Wage,173,South Sinai,35-40,Company Director,175-180,Beheira/Por Said/Giza
+Stanley Reyes,M,32,Writer,188,Sharqia,30-50,Pilot/Engineer/Writer,165-170,Por Said/Giza/Qena
+Kim Wolf,M,26,Civil Servant,189,Beni Suef,>49,Teacher,165-170,Asyut/Por Said
+Robson Key,M,40,Soldier,175,Dakahlia,45-50,Singer/Chef/Firefighter/Engineer,150-155,Dakahlia/Giza
+Shiloh Hopper,M,45,Actor,184,North Sinai,30-45,Chef/Journalist,175-180,Qena/North Sinai
+Nadir Donald,M,30,Musician,171,Dakahlia,<42,Teacher/Doctor,165-180,North Sinai/Giza/Suez/Ismailia
+Dario Ramirez,M,32,Chef,181,Gharbia,20-35,-,>166,South Sinai
+Bernard Swanson,M,23,Actor,182,Gharbia,25-40,Civil Servant/Astronaut/Programmer,160-165,South Sinai/Sharqia/Matruh
+Rayhaan Ballard,M,45,Programmer,179,Matruh,<43,Chef/Teacher/Soldier/Pilot,160-180,-
+Donell White,M,43,Engineer,166,Giza,<40,Pilot/Programmer,150-155,North Sinai/Qalyubia/Aswan
+Norman Livingston,M,47,Bank Teller,193,Ismailia,20-45,Journalist/Engineer,150-180,Por Said/Luxor
+Bartlomiej Alford,M,22,News Anchor,190,Aswan,20-45,Police Officer,165-170,Asyut/Sohag/Red Sea/Beheira
+Aden Rosas,M,44,Shopkeeper,185,Aswan,-,-,<157,Suez/Minya/Damietta
+Tyreese Huffman,M,36,Bank Teller,164,Ismailia,-,-,150-165,-
+Gia Adkins,M,36,Doctor,186,Suez,>21,Accountant/Secretary,-,South Sinai/Asyut/Beheira
+Brandy Pierce,M,47,Pilot,166,Beni Suef,40-45,Accountant/Astronaut,<173,Gharbia/Minya
+Szymon Sykes,M,32,Doctor,189,Alexandria,40-50,Writer/Bussinessman,165-170,Giza/Suez/Qalyubia/New Valley
+Loki Graham,M,46,Mathematician,192,Cairo,45-50,-,>153,Por Said/South Sinai/Beheira/Gharbia
+Siddharth Douglas,M,38,Singer,191,Kafr El Sheikh,45-50,Salesman/Chef/Singer,165-180,Suez/North Sinai
+Garfield Zhang,M,28,Soldier,179,Giza,40-45,Salesman/Police Officer/Mathematician,155-170,-
+Eamonn Hardy,M,19,Bussinessman,171,North Sinai,25-35,News Anchor,165-175,Damietta/Sohag
+Denny Ochoa,M,24,Singer,192,Beheira,30-50,Teacher,160-165,Monufia/New Valley/Matruh/Minya
+Clyde Jordan,M,44,Firefighter,167,Qalyubia,35-45,Civil Servant/Bank Teller,160-165,Sharqia/Aswan
+Shyla Prentice,M,41,Actor,171,Ismailia,35-45,Journalist,160-180,Gharbia/Qena/Beheira
+Dotty Mclaughlin,F,48,Singer,178,Giza,30-40,Artist,195-200,Qalyubia
+Shelbie Chambers,F,37,Engineer,156,Asyut,40-45,Pilot/Secretary/Company Director/Artist,-,Qena/Por Said
+Cordelia Bassett,F,42,Engineer,165,Sharqia,40-45,Engineer/Maid/Butler/Astronaut/Journalist,190-200,Sharqia
+Leilani Wilks,F,22,Mathematician,177,Red Sea,<28,Maid/Butler,<189,Giza/Beheira/North Sinai/New Valley
+Rosa Byers,F,23,Musician,164,Beni Suef,<43,-,165-170,South Sinai/Dakahlia/Sohag
+Jillian Crosby,F,27,Maid/Butler,178,Qalyubia,-,Doctor/Company Director/Artist/Civil Servant,180-195,-
+Teri Cervantes,F,38,Musician,173,Suez,>41,Journalist/Accountant/Actor,>170,-
+Clarke Read,F,26,Firefighter,162,Beni Suef,-,Min Wage,>189,North Sinai/Luxor
+Manha Rasmussen,F,49,Artist,154,Kafr El Sheikh,45-50,Firefighter/News Anchor/Mathematician/Singer,170-180,Por Said/North Sinai
+Kristy Redmond,F,20,Firefighter,157,Cairo,25-30,-,-,Beheira/Sohag/Por Said/New Valley
+Kay Wilkins,F,29,Civil Servant,170,Alexandria,20-50,Civil Servant/Mathematician,160-185,Monufia
+Nichola Thorne,F,24,Firefighter,169,Matruh,30-50,News Anchor,160-170,Red Sea/Ismailia
+Tess Fox,F,45,Programmer,173,Minya,20-25,-,190-200,Giza/Sohag
+Atlanta Mccarthy,F,29,Accountant,151,Asyut,-,Writer,>171,Damietta/Asyut/North Sinai
+Liana Battle,F,41,Teacher,167,Giza,35-50,Shopkeeper/Programmer/Pilot/Bank Teller,170-200,Ismailia/Sharqia
+Nina Morrison,F,23,Secretary,175,Ismailia,25-35,-,185-195,-
+Kayley Conrad,F,24,Maid/Butler,154,Damietta,20-40,-,195-200,Cairo/Faiyum
+Marnie Boyd,F,31,Civil Servant,175,Minya,<40,-,-,Suez/Monufia/Matruh/Damietta
+Hermione Quinn,F,18,Bussinessman,153,Red Sea,<21,-,<179,Por Said
+Anna Mays,F,30,Artist,158,Faiyum,30-40,News Anchor/Secretary/Programmer/Chef,170-195,Giza/Beheira
+Hira Davila,F,29,Company Director,167,Beheira,-,Min Wage/Secretary/Chef,185-195,-
+Jo Firth,F,23,Writer,157,Faiyum,<41,Chef,190-200,Red Sea/Dakahlia/Asyut/Damietta
+Jade Wilson,F,29,Bussinessman,172,Beheira,20-40,Programmer/Artist,160-165,Monufia/North Sinai/Dakahlia/Qena
+Isla-Mae Sanders,F,42,Doctor,176,Damietta,>48,Actor/Min Wage/Astronaut,195-200,Ismailia
+Amelia-Rose Larson,F,25,Min Wage,164,Matruh,45-50,Maid/Butler/Musician,>189,-
+Anja Shelton,F,35,Police Officer,168,Minya,20-30,Soldier/Journalist,165-170,Giza/South Sinai
+Carmen Montes,F,45,Singer,164,Monufia,35-45,-,-,Giza/Aswan/Dakahlia
+Natasha Hackett,F,34,Firefighter,173,Por Said,45-50,Scientist,-,Monufia/Qalyubia
+Ellis Wilkinson,F,49,Salesman,162,Dakahlia,25-50,Writer/Doctor/Bussinessman,>188,Aswan/Red Sea/Monufia/Suez
+Amina Cooper,F,33,Teacher,160,Monufia,35-40,Secretary/Artist/Bussinessman,>186,Giza/Aswan/Kafr El Sheikh/Luxor
+Sakina Ochoa,F,49,Mathematician,169,Sohag,30-40,Soldier,-,Red Sea/Suez/Minya/Beni Suef
+Lynsey Amin,F,47,Scientist,174,Aswan,30-40,-,195-200,Giza/Qalyubia
+Sandra O'Neill,F,48,Civil Servant,171,Red Sea,20-40,-,170-195,Sharqia
+Aiysha Duke,F,33,Journalist,166,Beni Suef,<34,Soldier/Doctor/Maid/Butler/Police Officer,<193,Alexandria/Luxor/Sohag/Qalyubia
+Saarah Porter,F,46,News Anchor,155,Cairo,<41,Pilot/Secretary/Engineer/Teacher,195-200,Damietta
+Elana Holloway,F,22,Soldier,172,Por Said,<48,Accountant/News Anchor/Teacher/Singer,190-195,-
+Dominique Fuentes,F,25,Company Director,169,New Valley,-,-,<173,Kafr El Sheikh/Monufia/Qena/Suez
+Isla Perez,F,29,Police Officer,163,Gharbia,40-50,Civil Servant/Police Officer/Teacher/Soldier,-,Suez/Dakahlia/New Valley
+Lani Savage,F,34,Actor,159,Faiyum,30-40,Writer/Scientist/Mathematician/Company Director,190-195,Kafr El Sheikh/Ismailia
+Alyx Enriquez,F,31,Artist,176,Cairo,45-50,Musician,-,-
+Riley Hines,F,46,Scientist,176,Cairo,<19,Actor/Firefighter/Musician,>189,Alexandria/Suez/Qalyubia
+Jorge Power,F,47,Civil Servant,178,North Sinai,-,Bussinessman,175-190,Qalyubia/Minya
+Amrit Prince,F,28,Singer,151,Luxor,-,Police Officer,160-175,Minya/Aswan/Giza/Sohag
+Etta Bloggs,F,49,Shopkeeper,161,Monufia,>41,Firefighter/Mathematician/Singer/News Anchor,-,Luxor
+Elliot Kennedy,F,31,Engineer,156,Damietta,<36,-,<188,-
+Elisa Bentley,F,39,Soldier,152,South Sinai,25-40,-,190-200,Minya
+Coco Riddle,F,45,Scientist,162,Red Sea,25-40,Teacher,>186,Aswan/Suez/New Valley
+Antonina Oconnor,F,34,Doctor,174,Red Sea,30-45,Shopkeeper/Company Director/Actor/Doctor,185-190,Sharqia/Qena/Suez/South Sinai
+Kristina Shields,F,39,Bussinessman,177,Red Sea,<42,Maid/Butler,-,Dakahlia/Cairo/Beheira

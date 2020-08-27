@@ -9,16 +9,16 @@ public class DiscretePreference extends Preference {
         preferences = values.split("/");
     }
 
-    public boolean satisfies(String property) {
+    public int satisfies(String property) {
         if (preferences == null || preferences.length == 0) {
-            return true;
+            return 1;
         }
 
         for (String preference : preferences) {
             if (preference.equals(property)) {
-                return true;
+                return 2;
             }
         }
-        return false;
+        return 0;
     }
 }

@@ -34,12 +34,20 @@ public class ContinuousPreference extends Preference {
         }
     }
 
-    public boolean satisfies(String property) {
+    public int satisfies(String property) {
         if (property == null) {
-            // System.out.println("got null in Cont pref");
-            return true;
+            return 1;
         }
+
+        if (minPreference == Integer.MIN_VALUE && maxPreference == Integer.MAX_VALUE) {
+            return 1;
+        }
+
         int num = Integer.parseInt(property);
-        return num >= minPreference && num <= maxPreference;
+        if (num >= minPreference && num <= maxPreference) {
+            return 2;
+        } else {
+            return 0;
+        }
     }
 }

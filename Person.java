@@ -61,12 +61,10 @@ public class Person {
         int amount = 0;
 
         for (Heading h : preferences.keySet()) {
-            if (preferences.get(h).satisfies(p.getProperty(Heading.getCounterpart(h)))) {
-
-                // System.out.println(p.name + " satisfies " + name + "'s " + h.name());
-                amount++;
-            }
+            amount += preferences.get(h).satisfies(p.getProperty(Heading.getCounterpart(h)));
         }
+
+
         return amount;
     }
 
